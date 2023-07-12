@@ -1,0 +1,2638 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20231.23.0511.1508                               -->
+<workbook original-version='18.1' source-build='2023.1.2 (20231.23.0511.1508)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.AnimationOnByDefault.true...AnimationOnByDefault />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SheetIdentifierTracking />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <_.fcp.AnimationOnByDefault.false...style>
+    <_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule element='animation'>
+      <_.fcp.AnimationOnByDefault.false...format attr='animation-on' value='ao-on' />
+    </_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule>
+  </_.fcp.AnimationOnByDefault.false...style>
+  <datasources>
+    <datasource caption='0. andamento_profitti' inline='true' name='federated.1n0uetr04cxwrx12vrffs1n2e7qe' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='0. andamento_profitti' name='cloudfile:googledrive-textscan.1trdc8e1vmx1io1b3x7x80lk8bf8'>
+            <connection class='cloudfile:googledrive-textscan' cloudFileExtension='csv' cloudFileId='1cghh9W8tD-6eqU6gYfWqX1a6tdysvw5T' cloudFileMetadata_-_folder='1y7tQbmgYR6uCTuAkA_r6oEQrKKhfFEXa' cloudFileName='0. andamento_profitti.csv' cloudFileProvider='googledrive' cloudFileRequestURL='https://www.googleapis.com/drive/v3/files/1cghh9W8tD-6eqU6gYfWqX1a6tdysvw5T?alt=media' filename='0. andamento_profitti.csv' server='' server-oauth='' username='emma.gurbelea@gmail.com' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='cloudfile:googledrive-textscan.1trdc8e1vmx1io1b3x7x80lk8bf8' name='0. andamento_profitti.csv' table='[0. andamento_profitti#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_GB' separator=','>
+            <column datatype='string' name='year_month' ordinal='0' />
+            <column datatype='real' name='profit' ordinal='1' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='cloudfile:googledrive-textscan.1trdc8e1vmx1io1b3x7x80lk8bf8' name='0. andamento_profitti.csv' table='[0. andamento_profitti#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_GB' separator=','>
+            <column datatype='string' name='year_month' ordinal='0' />
+            <column datatype='real' name='profit' ordinal='1' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[0. andamento_profitti.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_GB&quot;</attribute>
+              <attribute datatype='string' name='currency'>&quot;£&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_GB&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>year_month</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[year_month]</local-name>
+            <parent-name>[0. andamento_profitti.csv]</parent-name>
+            <remote-alias>year_month</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[0. andamento_profitti.csv_26510FE0F59E4CFBA2BF04D6C6179594]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>profit</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[profit]</local-name>
+            <parent-name>[0. andamento_profitti.csv]</parent-name>
+            <remote-alias>profit</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[0. andamento_profitti.csv_26510FE0F59E4CFBA2BF04D6C6179594]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <_.fcp.ObjectModelTableType.true...column caption='0. andamento_profitti.csv' datatype='table' name='[__tableau_internal_object_id__].[0. andamento_profitti.csv_26510FE0F59E4CFBA2BF04D6C6179594]' role='measure' type='quantitative' />
+      <column caption='Profit' datatype='real' name='[profit]' role='measure' type='quantitative' />
+      <column caption='Year Month' datatype='string' name='[year_month]' role='dimension' type='nominal' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;Italy&quot;' />
+      </semantic-values>
+      <date-options start-of-week='monday' />
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='0. andamento_profitti.csv' id='0. andamento_profitti.csv_26510FE0F59E4CFBA2BF04D6C6179594'>
+            <properties context=''>
+              <relation connection='cloudfile:googledrive-textscan.1trdc8e1vmx1io1b3x7x80lk8bf8' name='0. andamento_profitti.csv' table='[0. andamento_profitti#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='en_GB' separator=','>
+                  <column datatype='string' name='year_month' ordinal='0' />
+                  <column datatype='real' name='profit' ordinal='1' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+    <datasource caption='0.conteggio_ordini_giorno' inline='true' name='federated.1mo3bpi1ufzvr8114gdyr1s0fjuj' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='0.conteggio_ordini_giorno' name='cloudfile:googledrive-textscan.0p86tw01vwr0c81cmk59b1h4qfle'>
+            <connection class='cloudfile:googledrive-textscan' cloudFileExtension='csv' cloudFileId='1TeHJzGAJVODbBj8iyhhG51nqx2RAKpi4' cloudFileMetadata_-_folder='1y7tQbmgYR6uCTuAkA_r6oEQrKKhfFEXa' cloudFileName='0.conteggio_ordini_giorno.csv' cloudFileProvider='googledrive' cloudFileRequestURL='https://www.googleapis.com/drive/v3/files/1TeHJzGAJVODbBj8iyhhG51nqx2RAKpi4?alt=media' filename='0.conteggio_ordini_giorno.csv' server='' server-oauth='' username='emma.gurbelea@gmail.com' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='cloudfile:googledrive-textscan.0p86tw01vwr0c81cmk59b1h4qfle' name='0.conteggio_ordini_giorno.csv' table='[0.conteggio_ordini_giorno#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_GB' separator=','>
+            <column datatype='date' name='day' ordinal='0' />
+            <column datatype='integer' name='total_orders' ordinal='1' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='cloudfile:googledrive-textscan.0p86tw01vwr0c81cmk59b1h4qfle' name='0.conteggio_ordini_giorno.csv' table='[0.conteggio_ordini_giorno#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_GB' separator=','>
+            <column datatype='date' name='day' ordinal='0' />
+            <column datatype='integer' name='total_orders' ordinal='1' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[0.conteggio_ordini_giorno.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_GB&quot;</attribute>
+              <attribute datatype='string' name='currency'>&quot;£&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_GB&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>day</remote-name>
+            <remote-type>133</remote-type>
+            <local-name>[day]</local-name>
+            <parent-name>[0.conteggio_ordini_giorno.csv]</parent-name>
+            <remote-alias>day</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[0.conteggio_ordini_giorno.csv_9D4E13B9D33A454B93BDDB6608BFBF2A]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>total_orders</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[total_orders]</local-name>
+            <parent-name>[0.conteggio_ordini_giorno.csv]</parent-name>
+            <remote-alias>total_orders</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[0.conteggio_ordini_giorno.csv_9D4E13B9D33A454B93BDDB6608BFBF2A]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <_.fcp.ObjectModelTableType.true...column caption='0.conteggio_ordini_giorno.csv' datatype='table' name='[__tableau_internal_object_id__].[0.conteggio_ordini_giorno.csv_9D4E13B9D33A454B93BDDB6608BFBF2A]' role='measure' type='quantitative' />
+      <column caption='Day' datatype='date' name='[day]' role='dimension' type='ordinal' />
+      <column caption='Total Orders' datatype='integer' name='[total_orders]' role='measure' type='quantitative' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;Italy&quot;' />
+      </semantic-values>
+      <date-options start-of-week='monday' />
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='0.conteggio_ordini_giorno.csv' id='0.conteggio_ordini_giorno.csv_9D4E13B9D33A454B93BDDB6608BFBF2A'>
+            <properties context=''>
+              <relation connection='cloudfile:googledrive-textscan.0p86tw01vwr0c81cmk59b1h4qfle' name='0.conteggio_ordini_giorno.csv' table='[0.conteggio_ordini_giorno#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='en_GB' separator=','>
+                  <column datatype='date' name='day' ordinal='0' />
+                  <column datatype='integer' name='total_orders' ordinal='1' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+    <datasource caption='0.media_tempo_spedizione' inline='true' name='federated.1aeipjk1xqggrj1d068te0xuaoxw' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='0.media_tempo_spedizione' name='cloudfile:googledrive-textscan.1hooksb1tzc4yk10tzlxy160t1lk'>
+            <connection class='cloudfile:googledrive-textscan' cloudFileExtension='csv' cloudFileId='1ovGDLm_QznkrOaGTmVJarZrmvCe8QSmU' cloudFileMetadata_-_folder='1y7tQbmgYR6uCTuAkA_r6oEQrKKhfFEXa' cloudFileName='0.media_tempo_spedizione.csv' cloudFileProvider='googledrive' cloudFileRequestURL='https://www.googleapis.com/drive/v3/files/1ovGDLm_QznkrOaGTmVJarZrmvCe8QSmU?alt=media' filename='0.media_tempo_spedizione.csv' server='' server-oauth='' username='emma.gurbelea@gmail.com' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='cloudfile:googledrive-textscan.1hooksb1tzc4yk10tzlxy160t1lk' name='0.media_tempo_spedizione.csv' table='[0.media_tempo_spedizione#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_GB' separator=','>
+            <column datatype='string' name='country' ordinal='0' />
+            <column datatype='integer' name='year' ordinal='1' />
+            <column datatype='real' name='avg_days' ordinal='2' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='cloudfile:googledrive-textscan.1hooksb1tzc4yk10tzlxy160t1lk' name='0.media_tempo_spedizione.csv' table='[0.media_tempo_spedizione#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_GB' separator=','>
+            <column datatype='string' name='country' ordinal='0' />
+            <column datatype='integer' name='year' ordinal='1' />
+            <column datatype='real' name='avg_days' ordinal='2' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[0.media_tempo_spedizione.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_GB&quot;</attribute>
+              <attribute datatype='string' name='currency'>&quot;£&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_GB&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>country</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[country]</local-name>
+            <parent-name>[0.media_tempo_spedizione.csv]</parent-name>
+            <remote-alias>country</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[0.media_tempo_spedizione.csv_E2945BE1EE0644E78D8FF341198ED6B0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>year</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[year]</local-name>
+            <parent-name>[0.media_tempo_spedizione.csv]</parent-name>
+            <remote-alias>year</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[0.media_tempo_spedizione.csv_E2945BE1EE0644E78D8FF341198ED6B0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>avg_days</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[avg_days]</local-name>
+            <parent-name>[0.media_tempo_spedizione.csv]</parent-name>
+            <remote-alias>avg_days</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[0.media_tempo_spedizione.csv_E2945BE1EE0644E78D8FF341198ED6B0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <_.fcp.ObjectModelTableType.true...column caption='0.media_tempo_spedizione.csv' datatype='table' name='[__tableau_internal_object_id__].[0.media_tempo_spedizione.csv_E2945BE1EE0644E78D8FF341198ED6B0]' role='measure' type='quantitative' />
+      <column caption='Avg Days' datatype='real' name='[avg_days]' role='measure' type='quantitative' />
+      <column caption='Country' datatype='string' name='[country]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal' />
+      <column caption='Year' datatype='integer' name='[year]' role='dimension' type='quantitative' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;Italy&quot;' />
+      </semantic-values>
+      <date-options start-of-week='monday' />
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='0.media_tempo_spedizione.csv' id='0.media_tempo_spedizione.csv_E2945BE1EE0644E78D8FF341198ED6B0'>
+            <properties context=''>
+              <relation connection='cloudfile:googledrive-textscan.1hooksb1tzc4yk10tzlxy160t1lk' name='0.media_tempo_spedizione.csv' table='[0.media_tempo_spedizione#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='en_GB' separator=','>
+                  <column datatype='string' name='country' ordinal='0' />
+                  <column datatype='integer' name='year' ordinal='1' />
+                  <column datatype='real' name='avg_days' ordinal='2' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+    <datasource caption='1.actions' inline='true' name='federated.1n1pn2s1d18szk1e9w0vq1lu7969' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='1.actions' name='cloudfile:googledrive-textscan.1o98cyo1cv726g19r0jrz18y6lya'>
+            <connection class='cloudfile:googledrive-textscan' cloudFileExtension='csv' cloudFileId='1KyIBD-5O9-yiZagTAGif6DXD0BFf53VQ' cloudFileMetadata_-_folder='1y7tQbmgYR6uCTuAkA_r6oEQrKKhfFEXa' cloudFileName='1.actions.csv' cloudFileProvider='googledrive' cloudFileRequestURL='https://www.googleapis.com/drive/v3/files/1KyIBD-5O9-yiZagTAGif6DXD0BFf53VQ?alt=media' filename='1.actions.csv' server='' server-oauth='' username='emma.gurbelea@gmail.com' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='cloudfile:googledrive-textscan.1o98cyo1cv726g19r0jrz18y6lya' name='1.actions.csv' table='[1.actions#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_GB' separator=','>
+            <column datatype='integer' name='actions' ordinal='0' />
+            <column datatype='integer' name='sessions' ordinal='1' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='cloudfile:googledrive-textscan.1o98cyo1cv726g19r0jrz18y6lya' name='1.actions.csv' table='[1.actions#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_GB' separator=','>
+            <column datatype='integer' name='actions' ordinal='0' />
+            <column datatype='integer' name='sessions' ordinal='1' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[1.actions.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_GB&quot;</attribute>
+              <attribute datatype='string' name='currency'>&quot;£&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_GB&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>actions</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[actions]</local-name>
+            <parent-name>[1.actions.csv]</parent-name>
+            <remote-alias>actions</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[1.actions.csv_F5101A525FA04914AC5ECD90E79E97D0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>sessions</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[sessions]</local-name>
+            <parent-name>[1.actions.csv]</parent-name>
+            <remote-alias>sessions</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[1.actions.csv_F5101A525FA04914AC5ECD90E79E97D0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <_.fcp.ObjectModelTableType.true...column caption='1.actions.csv' datatype='table' name='[__tableau_internal_object_id__].[1.actions.csv_F5101A525FA04914AC5ECD90E79E97D0]' role='measure' type='quantitative' />
+      <column caption='Actions' datatype='integer' name='[actions]' role='measure' type='quantitative' />
+      <column caption='Sessions' datatype='integer' name='[sessions]' role='measure' type='quantitative' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;Italy&quot;' />
+      </semantic-values>
+      <date-options start-of-week='monday' />
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='1.actions.csv' id='1.actions.csv_F5101A525FA04914AC5ECD90E79E97D0'>
+            <properties context=''>
+              <relation connection='cloudfile:googledrive-textscan.1o98cyo1cv726g19r0jrz18y6lya' name='1.actions.csv' table='[1.actions#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='en_GB' separator=','>
+                  <column datatype='integer' name='actions' ordinal='0' />
+                  <column datatype='integer' name='sessions' ordinal='1' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+    <datasource caption='1.browser' inline='true' name='federated.0vph5fz0h6opz61g08f6x0uaux8h' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='1.browser' name='cloudfile:googledrive-textscan.1hvotn918rtn9n16awuip0gtk84x'>
+            <connection class='cloudfile:googledrive-textscan' cloudFileExtension='csv' cloudFileId='1dcAIjHCOSSSyZ8FxpylFQpajs7LtE2yj' cloudFileMetadata_-_folder='1y7tQbmgYR6uCTuAkA_r6oEQrKKhfFEXa' cloudFileName='1.browser.csv' cloudFileProvider='googledrive' cloudFileRequestURL='https://www.googleapis.com/drive/v3/files/1dcAIjHCOSSSyZ8FxpylFQpajs7LtE2yj?alt=media' filename='1.browser.csv' server='' server-oauth='' username='emma.gurbelea@gmail.com' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='cloudfile:googledrive-textscan.1hvotn918rtn9n16awuip0gtk84x' name='1.browser.csv' table='[1.browser#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_GB' separator=','>
+            <column datatype='string' name='browser' ordinal='0' />
+            <column datatype='integer' name='c' ordinal='1' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='cloudfile:googledrive-textscan.1hvotn918rtn9n16awuip0gtk84x' name='1.browser.csv' table='[1.browser#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_GB' separator=','>
+            <column datatype='string' name='browser' ordinal='0' />
+            <column datatype='integer' name='c' ordinal='1' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[1.browser.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_GB&quot;</attribute>
+              <attribute datatype='string' name='currency'>&quot;£&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_GB&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>browser</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[browser]</local-name>
+            <parent-name>[1.browser.csv]</parent-name>
+            <remote-alias>browser</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[1.browser.csv_20356AFDF45A441196E4EBE48374489F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>c</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[c]</local-name>
+            <parent-name>[1.browser.csv]</parent-name>
+            <remote-alias>c</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[1.browser.csv_20356AFDF45A441196E4EBE48374489F]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <_.fcp.ObjectModelTableType.true...column caption='1.browser.csv' datatype='table' name='[__tableau_internal_object_id__].[1.browser.csv_20356AFDF45A441196E4EBE48374489F]' role='measure' type='quantitative' />
+      <column caption='Browser' datatype='string' name='[browser]' role='dimension' type='nominal' />
+      <column caption='C' datatype='integer' name='[c]' role='measure' type='quantitative' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;Italy&quot;' />
+      </semantic-values>
+      <date-options start-of-week='monday' />
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='1.browser.csv' id='1.browser.csv_20356AFDF45A441196E4EBE48374489F'>
+            <properties context=''>
+              <relation connection='cloudfile:googledrive-textscan.1hvotn918rtn9n16awuip0gtk84x' name='1.browser.csv' table='[1.browser#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='en_GB' separator=','>
+                  <column datatype='string' name='browser' ordinal='0' />
+                  <column datatype='integer' name='c' ordinal='1' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+    <datasource caption='1.traffic_source' inline='true' name='federated.1kvbihs12vg2iq16n00zu0l2j8p4' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='1.traffic_source' name='cloudfile:googledrive-textscan.1a17qnr18d43cx126741t1iwzpc4'>
+            <connection class='cloudfile:googledrive-textscan' cloudFileExtension='csv' cloudFileId='1oMnd9vOf1mHyjk_M-KXZvVLMhlHpgBGi' cloudFileMetadata_-_folder='1y7tQbmgYR6uCTuAkA_r6oEQrKKhfFEXa' cloudFileName='1.traffic_source.csv' cloudFileProvider='googledrive' cloudFileRequestURL='https://www.googleapis.com/drive/v3/files/1oMnd9vOf1mHyjk_M-KXZvVLMhlHpgBGi?alt=media' filename='1.traffic_source.csv' server='' server-oauth='' username='emma.gurbelea@gmail.com' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='cloudfile:googledrive-textscan.1a17qnr18d43cx126741t1iwzpc4' name='1.traffic_source.csv' table='[1.traffic_source#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_GB' separator=','>
+            <column datatype='string' name='traffic_source' ordinal='0' />
+            <column datatype='integer' name='c' ordinal='1' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='cloudfile:googledrive-textscan.1a17qnr18d43cx126741t1iwzpc4' name='1.traffic_source.csv' table='[1.traffic_source#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_GB' separator=','>
+            <column datatype='string' name='traffic_source' ordinal='0' />
+            <column datatype='integer' name='c' ordinal='1' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[1.traffic_source.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_GB&quot;</attribute>
+              <attribute datatype='string' name='currency'>&quot;£&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_GB&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>traffic_source</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[traffic_source]</local-name>
+            <parent-name>[1.traffic_source.csv]</parent-name>
+            <remote-alias>traffic_source</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[1.traffic_source.csv_87B4B210A1984089B9F13C9931F37C36]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>c</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[c]</local-name>
+            <parent-name>[1.traffic_source.csv]</parent-name>
+            <remote-alias>c</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[1.traffic_source.csv_87B4B210A1984089B9F13C9931F37C36]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <_.fcp.ObjectModelTableType.true...column caption='1.traffic_source.csv' datatype='table' name='[__tableau_internal_object_id__].[1.traffic_source.csv_87B4B210A1984089B9F13C9931F37C36]' role='measure' type='quantitative' />
+      <column caption='C' datatype='integer' name='[c]' role='measure' type='quantitative' />
+      <column caption='Traffic Source' datatype='string' name='[traffic_source]' role='dimension' type='nominal' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;Italy&quot;' />
+      </semantic-values>
+      <date-options start-of-week='monday' />
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='1.traffic_source.csv' id='1.traffic_source.csv_87B4B210A1984089B9F13C9931F37C36'>
+            <properties context=''>
+              <relation connection='cloudfile:googledrive-textscan.1a17qnr18d43cx126741t1iwzpc4' name='1.traffic_source.csv' table='[1.traffic_source#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='en_GB' separator=','>
+                  <column datatype='string' name='traffic_source' ordinal='0' />
+                  <column datatype='integer' name='c' ordinal='1' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+    <datasource caption='2-users_countries(goodone)' inline='true' name='federated.02aanwk05swyk81a2idit1md8l72' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='2-users_countries(goodone)' name='cloudfile:googledrive-textscan.0diz4sd11g6bd31f6xymx1lk9mcr'>
+            <connection class='cloudfile:googledrive-textscan' cloudFileExtension='csv' cloudFileId='18YDTuTImGAdWXvy5XgVylTyqQesUAqBX' cloudFileMetadata_-_folder='1y7tQbmgYR6uCTuAkA_r6oEQrKKhfFEXa' cloudFileName='2-users_countries(goodone).csv' cloudFileProvider='googledrive' cloudFileRequestURL='https://www.googleapis.com/drive/v3/files/18YDTuTImGAdWXvy5XgVylTyqQesUAqBX?alt=media' filename='2-users_countries(goodone).csv' server='' server-oauth='' username='emma.gurbelea@gmail.com' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='cloudfile:googledrive-textscan.0diz4sd11g6bd31f6xymx1lk9mcr' name='2-users_countries(goodone).csv' table='[2-users_countries(goodone)#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_GB' separator=','>
+            <column datatype='string' name='country' ordinal='0' />
+            <column datatype='string' name='city' ordinal='1' />
+            <column datatype='integer' name='frequency' ordinal='2' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='cloudfile:googledrive-textscan.0diz4sd11g6bd31f6xymx1lk9mcr' name='2-users_countries(goodone).csv' table='[2-users_countries(goodone)#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_GB' separator=','>
+            <column datatype='string' name='country' ordinal='0' />
+            <column datatype='string' name='city' ordinal='1' />
+            <column datatype='integer' name='frequency' ordinal='2' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[2-users_countries(goodone).csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_GB&quot;</attribute>
+              <attribute datatype='string' name='currency'>&quot;£&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_GB&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>country</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[country]</local-name>
+            <parent-name>[2-users_countries(goodone).csv]</parent-name>
+            <remote-alias>country</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[2-users_countries(goodone).csv_978A8FD4C805428481C03C06598D12F8]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>city</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[city]</local-name>
+            <parent-name>[2-users_countries(goodone).csv]</parent-name>
+            <remote-alias>city</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[2-users_countries(goodone).csv_978A8FD4C805428481C03C06598D12F8]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>frequency</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[frequency]</local-name>
+            <parent-name>[2-users_countries(goodone).csv]</parent-name>
+            <remote-alias>frequency</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[2-users_countries(goodone).csv_978A8FD4C805428481C03C06598D12F8]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <_.fcp.ObjectModelTableType.true...column caption='2-users_countries(goodone).csv' datatype='table' name='[__tableau_internal_object_id__].[2-users_countries(goodone).csv_978A8FD4C805428481C03C06598D12F8]' role='measure' type='quantitative' />
+      <column caption='City' datatype='string' name='[city]' role='dimension' semantic-role='[City].[Name]' type='nominal' />
+      <column caption='Country' datatype='string' name='[country]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal' />
+      <column caption='Frequency' datatype='integer' name='[frequency]' role='measure' type='quantitative' />
+      <drill-paths>
+        <drill-path name='country, city'>
+          <field>[country]</field>
+          <field>[city]</field>
+        </drill-path>
+      </drill-paths>
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;Italy&quot;' />
+      </semantic-values>
+      <date-options start-of-week='monday' />
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='2-users_countries(goodone).csv' id='2-users_countries(goodone).csv_978A8FD4C805428481C03C06598D12F8'>
+            <properties context=''>
+              <relation connection='cloudfile:googledrive-textscan.0diz4sd11g6bd31f6xymx1lk9mcr' name='2-users_countries(goodone).csv' table='[2-users_countries(goodone)#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='en_GB' separator=','>
+                  <column datatype='string' name='country' ordinal='0' />
+                  <column datatype='string' name='city' ordinal='1' />
+                  <column datatype='integer' name='frequency' ordinal='2' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+    <datasource caption='2. best_clients_2023' inline='true' name='federated.1wcuwsu0f8ym8t19p81ob160oynm' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='2. best_clients_2023' name='cloudfile:googledrive-textscan.0bgze7e0py5h0j110z0pi1a9eue2'>
+            <connection class='cloudfile:googledrive-textscan' cloudFileExtension='csv' cloudFileId='1oyMfW5Awobu7Y6LszyGpIPe2pj5Dc3iu' cloudFileMetadata_-_folder='1y7tQbmgYR6uCTuAkA_r6oEQrKKhfFEXa' cloudFileName='2. best_clients_2023.csv' cloudFileProvider='googledrive' cloudFileRequestURL='https://www.googleapis.com/drive/v3/files/1oyMfW5Awobu7Y6LszyGpIPe2pj5Dc3iu?alt=media' filename='2. best_clients_2023.csv' server='' server-oauth='' username='emma.gurbelea@gmail.com' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='cloudfile:googledrive-textscan.0bgze7e0py5h0j110z0pi1a9eue2' name='2. best_clients_2023.csv' table='[2. best_clients_2023#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_GB' separator=','>
+            <column datatype='integer' name='id' ordinal='0' />
+            <column datatype='string' name='first_name' ordinal='1' />
+            <column datatype='string' name='last_name' ordinal='2' />
+            <column datatype='string' name='email' ordinal='3' />
+            <column datatype='real' name='totale_spesa' ordinal='4' />
+            <column datatype='integer' name='count_orders_per_client' ordinal='5' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='cloudfile:googledrive-textscan.0bgze7e0py5h0j110z0pi1a9eue2' name='2. best_clients_2023.csv' table='[2. best_clients_2023#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_GB' separator=','>
+            <column datatype='integer' name='id' ordinal='0' />
+            <column datatype='string' name='first_name' ordinal='1' />
+            <column datatype='string' name='last_name' ordinal='2' />
+            <column datatype='string' name='email' ordinal='3' />
+            <column datatype='real' name='totale_spesa' ordinal='4' />
+            <column datatype='integer' name='count_orders_per_client' ordinal='5' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[2. best_clients_2023.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_GB&quot;</attribute>
+              <attribute datatype='string' name='currency'>&quot;£&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_GB&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>id</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[id]</local-name>
+            <parent-name>[2. best_clients_2023.csv]</parent-name>
+            <remote-alias>id</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[2. best_clients_2023.csv_6134C6AE70614E67A4C7BFA0A7412C3D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>first_name</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[first_name]</local-name>
+            <parent-name>[2. best_clients_2023.csv]</parent-name>
+            <remote-alias>first_name</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[2. best_clients_2023.csv_6134C6AE70614E67A4C7BFA0A7412C3D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>last_name</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[last_name]</local-name>
+            <parent-name>[2. best_clients_2023.csv]</parent-name>
+            <remote-alias>last_name</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[2. best_clients_2023.csv_6134C6AE70614E67A4C7BFA0A7412C3D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>email</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[email]</local-name>
+            <parent-name>[2. best_clients_2023.csv]</parent-name>
+            <remote-alias>email</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[2. best_clients_2023.csv_6134C6AE70614E67A4C7BFA0A7412C3D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>totale_spesa</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[totale_spesa]</local-name>
+            <parent-name>[2. best_clients_2023.csv]</parent-name>
+            <remote-alias>totale_spesa</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[2. best_clients_2023.csv_6134C6AE70614E67A4C7BFA0A7412C3D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>count_orders_per_client</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[count_orders_per_client]</local-name>
+            <parent-name>[2. best_clients_2023.csv]</parent-name>
+            <remote-alias>count_orders_per_client</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[2. best_clients_2023.csv_6134C6AE70614E67A4C7BFA0A7412C3D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <_.fcp.ObjectModelTableType.true...column caption='2. best_clients_2023.csv' datatype='table' name='[__tableau_internal_object_id__].[2. best_clients_2023.csv_6134C6AE70614E67A4C7BFA0A7412C3D]' role='measure' type='quantitative' />
+      <column caption='Count Orders Per Client' datatype='integer' name='[count_orders_per_client]' role='measure' type='quantitative' />
+      <column caption='Email' datatype='string' name='[email]' role='dimension' type='nominal' />
+      <column caption='First Name' datatype='string' name='[first_name]' role='dimension' type='nominal' />
+      <column caption='Id' datatype='integer' name='[id]' role='dimension' type='ordinal' />
+      <column caption='Last Name' datatype='string' name='[last_name]' role='dimension' type='nominal' />
+      <column caption='Totale Spesa' datatype='real' name='[totale_spesa]' role='measure' type='quantitative' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;Italy&quot;' />
+      </semantic-values>
+      <date-options start-of-week='monday' />
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='2. best_clients_2023.csv' id='2. best_clients_2023.csv_6134C6AE70614E67A4C7BFA0A7412C3D'>
+            <properties context=''>
+              <relation connection='cloudfile:googledrive-textscan.0bgze7e0py5h0j110z0pi1a9eue2' name='2. best_clients_2023.csv' table='[2. best_clients_2023#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='en_GB' separator=','>
+                  <column datatype='integer' name='id' ordinal='0' />
+                  <column datatype='string' name='first_name' ordinal='1' />
+                  <column datatype='string' name='last_name' ordinal='2' />
+                  <column datatype='string' name='email' ordinal='3' />
+                  <column datatype='real' name='totale_spesa' ordinal='4' />
+                  <column datatype='integer' name='count_orders_per_client' ordinal='5' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+    <datasource caption='2.users_distribution_age_gender' inline='true' name='federated.1ec2q2c0whics513smiqn1r3yrs0' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='2.users_distribution_age_gender' name='cloudfile:googledrive-textscan.1icjnup176p7qx0zqycqj1aph0on'>
+            <connection class='cloudfile:googledrive-textscan' cloudFileExtension='csv' cloudFileId='1NgHcaQJ9hqJK7gcHSa7JIF5TdJJqUMAz' cloudFileMetadata_-_folder='1y7tQbmgYR6uCTuAkA_r6oEQrKKhfFEXa' cloudFileName='2.users_distribution_age_gender.csv' cloudFileProvider='googledrive' cloudFileRequestURL='https://www.googleapis.com/drive/v3/files/1NgHcaQJ9hqJK7gcHSa7JIF5TdJJqUMAz?alt=media' filename='2.users_distribution_age_gender.csv' server='' server-oauth='' username='emma.gurbelea@gmail.com' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='cloudfile:googledrive-textscan.1icjnup176p7qx0zqycqj1aph0on' name='2.users_distribution_age_gender.csv' table='[2.users_distribution_age_gender#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_GB' separator=','>
+            <column datatype='string' name='gender' ordinal='0' />
+            <column datatype='integer' name='total' ordinal='1' />
+            <column datatype='integer' name='under_18' ordinal='2' />
+            <column datatype='integer' name='between_18_30' ordinal='3' />
+            <column datatype='integer' name='between_30_50' ordinal='4' />
+            <column datatype='integer' name='over_50' ordinal='5' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='cloudfile:googledrive-textscan.1icjnup176p7qx0zqycqj1aph0on' name='2.users_distribution_age_gender.csv' table='[2.users_distribution_age_gender#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_GB' separator=','>
+            <column datatype='string' name='gender' ordinal='0' />
+            <column datatype='integer' name='total' ordinal='1' />
+            <column datatype='integer' name='under_18' ordinal='2' />
+            <column datatype='integer' name='between_18_30' ordinal='3' />
+            <column datatype='integer' name='between_30_50' ordinal='4' />
+            <column datatype='integer' name='over_50' ordinal='5' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[2.users_distribution_age_gender.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_GB&quot;</attribute>
+              <attribute datatype='string' name='currency'>&quot;£&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_GB&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>gender</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[gender]</local-name>
+            <parent-name>[2.users_distribution_age_gender.csv]</parent-name>
+            <remote-alias>gender</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[2.users_distribution_age_gender.csv_03D1DC72B4C348A99F5F0C833A4619F9]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>total</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[total]</local-name>
+            <parent-name>[2.users_distribution_age_gender.csv]</parent-name>
+            <remote-alias>total</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[2.users_distribution_age_gender.csv_03D1DC72B4C348A99F5F0C833A4619F9]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>under_18</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[under_18]</local-name>
+            <parent-name>[2.users_distribution_age_gender.csv]</parent-name>
+            <remote-alias>under_18</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[2.users_distribution_age_gender.csv_03D1DC72B4C348A99F5F0C833A4619F9]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>between_18_30</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[between_18_30]</local-name>
+            <parent-name>[2.users_distribution_age_gender.csv]</parent-name>
+            <remote-alias>between_18_30</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[2.users_distribution_age_gender.csv_03D1DC72B4C348A99F5F0C833A4619F9]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>between_30_50</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[between_30_50]</local-name>
+            <parent-name>[2.users_distribution_age_gender.csv]</parent-name>
+            <remote-alias>between_30_50</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[2.users_distribution_age_gender.csv_03D1DC72B4C348A99F5F0C833A4619F9]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>over_50</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[over_50]</local-name>
+            <parent-name>[2.users_distribution_age_gender.csv]</parent-name>
+            <remote-alias>over_50</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[2.users_distribution_age_gender.csv_03D1DC72B4C348A99F5F0C833A4619F9]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <_.fcp.ObjectModelTableType.true...column caption='2.users_distribution_age_gender.csv' datatype='table' name='[__tableau_internal_object_id__].[2.users_distribution_age_gender.csv_03D1DC72B4C348A99F5F0C833A4619F9]' role='measure' type='quantitative' />
+      <column caption='Between 18 30' datatype='integer' name='[between_18_30]' role='measure' type='quantitative' />
+      <column caption='Between 30 50' datatype='integer' name='[between_30_50]' role='measure' type='quantitative' />
+      <column caption='Gender' datatype='string' name='[gender]' role='dimension' type='nominal' />
+      <column caption='Over 50' datatype='integer' name='[over_50]' role='measure' type='quantitative' />
+      <column caption='Total' datatype='integer' name='[total]' role='measure' type='quantitative' />
+      <column caption='Under 18' datatype='integer' name='[under_18]' role='measure' type='quantitative' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;Italy&quot;' />
+      </semantic-values>
+      <date-options start-of-week='monday' />
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='2.users_distribution_age_gender.csv' id='2.users_distribution_age_gender.csv_03D1DC72B4C348A99F5F0C833A4619F9'>
+            <properties context=''>
+              <relation connection='cloudfile:googledrive-textscan.1icjnup176p7qx0zqycqj1aph0on' name='2.users_distribution_age_gender.csv' table='[2.users_distribution_age_gender#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='en_GB' separator=','>
+                  <column datatype='string' name='gender' ordinal='0' />
+                  <column datatype='integer' name='total' ordinal='1' />
+                  <column datatype='integer' name='under_18' ordinal='2' />
+                  <column datatype='integer' name='between_18_30' ordinal='3' />
+                  <column datatype='integer' name='between_30_50' ordinal='4' />
+                  <column datatype='integer' name='over_50' ordinal='5' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+    <datasource caption='3-bw_products_profit' inline='true' name='federated.0ld30q017t3got11rfzm0036t791' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='3-bw_products_profit' name='cloudfile:googledrive-textscan.0zavfp11pknc761f76mps0ew9hqw'>
+            <connection class='cloudfile:googledrive-textscan' cloudFileExtension='csv' cloudFileId='1SN0I-r2ZVcn3-tGa6q1hraAwPYeiPAAx' cloudFileMetadata_-_folder='1y7tQbmgYR6uCTuAkA_r6oEQrKKhfFEXa' cloudFileName='3-bw_products_profit.csv' cloudFileProvider='googledrive' cloudFileRequestURL='https://www.googleapis.com/drive/v3/files/1SN0I-r2ZVcn3-tGa6q1hraAwPYeiPAAx?alt=media' filename='3-bw_products_profit.csv' server='' server-oauth='' username='emma.gurbelea@gmail.com' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='cloudfile:googledrive-textscan.0zavfp11pknc761f76mps0ew9hqw' name='3-bw_products_profit.csv' table='[3-bw_products_profit#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_GB' separator=','>
+            <column datatype='integer' name='product_id' ordinal='0' />
+            <column datatype='string' name='product_name' ordinal='1' />
+            <column datatype='string' name='category' ordinal='2' />
+            <column datatype='real' name='retail_price' ordinal='3' />
+            <column datatype='real' name='cost' ordinal='4' />
+            <column datatype='real' name='profit' ordinal='5' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='cloudfile:googledrive-textscan.0zavfp11pknc761f76mps0ew9hqw' name='3-bw_products_profit.csv' table='[3-bw_products_profit#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_GB' separator=','>
+            <column datatype='integer' name='product_id' ordinal='0' />
+            <column datatype='string' name='product_name' ordinal='1' />
+            <column datatype='string' name='category' ordinal='2' />
+            <column datatype='real' name='retail_price' ordinal='3' />
+            <column datatype='real' name='cost' ordinal='4' />
+            <column datatype='real' name='profit' ordinal='5' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[3-bw_products_profit.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_GB&quot;</attribute>
+              <attribute datatype='string' name='currency'>&quot;£&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_GB&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>product_id</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[product_id]</local-name>
+            <parent-name>[3-bw_products_profit.csv]</parent-name>
+            <remote-alias>product_id</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[3-bw_products_profit.csv_4CE20A95D4CA4E6B8E2E42CC08019773]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>product_name</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[product_name]</local-name>
+            <parent-name>[3-bw_products_profit.csv]</parent-name>
+            <remote-alias>product_name</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[3-bw_products_profit.csv_4CE20A95D4CA4E6B8E2E42CC08019773]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>category</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[category]</local-name>
+            <parent-name>[3-bw_products_profit.csv]</parent-name>
+            <remote-alias>category</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[3-bw_products_profit.csv_4CE20A95D4CA4E6B8E2E42CC08019773]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>retail_price</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[retail_price]</local-name>
+            <parent-name>[3-bw_products_profit.csv]</parent-name>
+            <remote-alias>retail_price</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[3-bw_products_profit.csv_4CE20A95D4CA4E6B8E2E42CC08019773]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>cost</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[cost]</local-name>
+            <parent-name>[3-bw_products_profit.csv]</parent-name>
+            <remote-alias>cost</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[3-bw_products_profit.csv_4CE20A95D4CA4E6B8E2E42CC08019773]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>profit</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[profit]</local-name>
+            <parent-name>[3-bw_products_profit.csv]</parent-name>
+            <remote-alias>profit</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[3-bw_products_profit.csv_4CE20A95D4CA4E6B8E2E42CC08019773]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <_.fcp.ObjectModelTableType.true...column caption='3-bw_products_profit.csv' datatype='table' name='[__tableau_internal_object_id__].[3-bw_products_profit.csv_4CE20A95D4CA4E6B8E2E42CC08019773]' role='measure' type='quantitative' />
+      <column caption='Category' datatype='string' name='[category]' role='dimension' type='nominal' />
+      <column caption='Cost' datatype='real' name='[cost]' role='measure' type='quantitative' />
+      <column caption='Product Id' datatype='integer' name='[product_id]' role='dimension' type='ordinal' />
+      <column caption='Product Name' datatype='string' name='[product_name]' role='dimension' type='nominal' />
+      <column caption='Profit' datatype='real' name='[profit]' role='measure' type='quantitative' />
+      <column caption='Retail Price' datatype='real' name='[retail_price]' role='measure' type='quantitative' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;Italy&quot;' />
+      </semantic-values>
+      <date-options start-of-week='monday' />
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='3-bw_products_profit.csv' id='3-bw_products_profit.csv_4CE20A95D4CA4E6B8E2E42CC08019773'>
+            <properties context=''>
+              <relation connection='cloudfile:googledrive-textscan.0zavfp11pknc761f76mps0ew9hqw' name='3-bw_products_profit.csv' table='[3-bw_products_profit#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='en_GB' separator=','>
+                  <column datatype='integer' name='product_id' ordinal='0' />
+                  <column datatype='string' name='product_name' ordinal='1' />
+                  <column datatype='string' name='category' ordinal='2' />
+                  <column datatype='real' name='retail_price' ordinal='3' />
+                  <column datatype='real' name='cost' ordinal='4' />
+                  <column datatype='real' name='profit' ordinal='5' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+    <datasource caption='3-categories_age' inline='true' name='federated.00gmdxy1uuqvbh1f2q4km065vhxl' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='3-categories_age' name='cloudfile:googledrive-textscan.1pw2fg41kj69oy1cnchct1ye034j'>
+            <connection class='cloudfile:googledrive-textscan' cloudFileExtension='csv' cloudFileId='17e-jIgb89kByCtJgVRVTmiuFMbvgneP3' cloudFileMetadata_-_folder='1y7tQbmgYR6uCTuAkA_r6oEQrKKhfFEXa' cloudFileName='3-categories_age.csv' cloudFileProvider='googledrive' cloudFileRequestURL='https://www.googleapis.com/drive/v3/files/17e-jIgb89kByCtJgVRVTmiuFMbvgneP3?alt=media' filename='3-categories_age.csv' server='' server-oauth='' username='emma.gurbelea@gmail.com' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='cloudfile:googledrive-textscan.1pw2fg41kj69oy1cnchct1ye034j' name='3-categories_age.csv' table='[3-categories_age#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_GB' separator=','>
+            <column datatype='string' name='category' ordinal='0' />
+            <column datatype='integer' name='under_18' ordinal='1' />
+            <column datatype='integer' name='between_18_30' ordinal='2' />
+            <column datatype='integer' name='between_30_50' ordinal='3' />
+            <column datatype='integer' name='over_50' ordinal='4' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='cloudfile:googledrive-textscan.1pw2fg41kj69oy1cnchct1ye034j' name='3-categories_age.csv' table='[3-categories_age#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_GB' separator=','>
+            <column datatype='string' name='category' ordinal='0' />
+            <column datatype='integer' name='under_18' ordinal='1' />
+            <column datatype='integer' name='between_18_30' ordinal='2' />
+            <column datatype='integer' name='between_30_50' ordinal='3' />
+            <column datatype='integer' name='over_50' ordinal='4' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[3-categories_age.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_GB&quot;</attribute>
+              <attribute datatype='string' name='currency'>&quot;£&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_GB&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>category</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[category]</local-name>
+            <parent-name>[3-categories_age.csv]</parent-name>
+            <remote-alias>category</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[3-categories_age.csv_69880995F6184434A0AC07B801C1918C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>under_18</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[under_18]</local-name>
+            <parent-name>[3-categories_age.csv]</parent-name>
+            <remote-alias>under_18</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[3-categories_age.csv_69880995F6184434A0AC07B801C1918C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>between_18_30</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[between_18_30]</local-name>
+            <parent-name>[3-categories_age.csv]</parent-name>
+            <remote-alias>between_18_30</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[3-categories_age.csv_69880995F6184434A0AC07B801C1918C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>between_30_50</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[between_30_50]</local-name>
+            <parent-name>[3-categories_age.csv]</parent-name>
+            <remote-alias>between_30_50</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[3-categories_age.csv_69880995F6184434A0AC07B801C1918C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>over_50</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[over_50]</local-name>
+            <parent-name>[3-categories_age.csv]</parent-name>
+            <remote-alias>over_50</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[3-categories_age.csv_69880995F6184434A0AC07B801C1918C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <_.fcp.ObjectModelTableType.true...column caption='3-categories_age.csv' datatype='table' name='[__tableau_internal_object_id__].[3-categories_age.csv_69880995F6184434A0AC07B801C1918C]' role='measure' type='quantitative' />
+      <column caption='Between 18 30' datatype='integer' name='[between_18_30]' role='measure' type='quantitative' />
+      <column caption='Between 30 50' datatype='integer' name='[between_30_50]' role='measure' type='quantitative' />
+      <column caption='Category' datatype='string' name='[category]' role='dimension' type='nominal' />
+      <column caption='Over 50' datatype='integer' name='[over_50]' role='measure' type='quantitative' />
+      <column caption='Under 18' datatype='integer' name='[under_18]' role='measure' type='quantitative' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;Italy&quot;' />
+      </semantic-values>
+      <date-options start-of-week='monday' />
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='3-categories_age.csv' id='3-categories_age.csv_69880995F6184434A0AC07B801C1918C'>
+            <properties context=''>
+              <relation connection='cloudfile:googledrive-textscan.1pw2fg41kj69oy1cnchct1ye034j' name='3-categories_age.csv' table='[3-categories_age#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='en_GB' separator=','>
+                  <column datatype='string' name='category' ordinal='0' />
+                  <column datatype='integer' name='under_18' ordinal='1' />
+                  <column datatype='integer' name='between_18_30' ordinal='2' />
+                  <column datatype='integer' name='between_30_50' ordinal='3' />
+                  <column datatype='integer' name='over_50' ordinal='4' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+    <datasource caption='3-categories_gender' inline='true' name='federated.1c7h06a0jb79to1bff36w1fzwdvv' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='3-categories_gender' name='cloudfile:googledrive-textscan.0se4sh316mhkvn1h7wo2y1qoqdfj'>
+            <connection class='cloudfile:googledrive-textscan' cloudFileExtension='csv' cloudFileId='1yiinacS_Qq81cMm_FSuUw9acZe2c-X9a' cloudFileMetadata_-_folder='1y7tQbmgYR6uCTuAkA_r6oEQrKKhfFEXa' cloudFileName='3-categories_gender.csv' cloudFileProvider='googledrive' cloudFileRequestURL='https://www.googleapis.com/drive/v3/files/1yiinacS_Qq81cMm_FSuUw9acZe2c-X9a?alt=media' filename='3-categories_gender.csv' server='' server-oauth='' username='emma.gurbelea@gmail.com' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='cloudfile:googledrive-textscan.0se4sh316mhkvn1h7wo2y1qoqdfj' name='3-categories_gender.csv' table='[3-categories_gender#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_GB' separator=','>
+            <column datatype='string' name='category' ordinal='0' />
+            <column datatype='integer' name='M' ordinal='1' />
+            <column datatype='integer' name='F' ordinal='2' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='cloudfile:googledrive-textscan.0se4sh316mhkvn1h7wo2y1qoqdfj' name='3-categories_gender.csv' table='[3-categories_gender#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_GB' separator=','>
+            <column datatype='string' name='category' ordinal='0' />
+            <column datatype='integer' name='M' ordinal='1' />
+            <column datatype='integer' name='F' ordinal='2' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[3-categories_gender.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_GB&quot;</attribute>
+              <attribute datatype='string' name='currency'>&quot;£&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_GB&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>category</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[category]</local-name>
+            <parent-name>[3-categories_gender.csv]</parent-name>
+            <remote-alias>category</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[3-categories_gender.csv_546244DBAA8A4BFB8658EE743AFE56C3]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>M</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[M]</local-name>
+            <parent-name>[3-categories_gender.csv]</parent-name>
+            <remote-alias>M</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[3-categories_gender.csv_546244DBAA8A4BFB8658EE743AFE56C3]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[F]</local-name>
+            <parent-name>[3-categories_gender.csv]</parent-name>
+            <remote-alias>F</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[3-categories_gender.csv_546244DBAA8A4BFB8658EE743AFE56C3]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <_.fcp.ObjectModelTableType.true...column caption='3-categories_gender.csv' datatype='table' name='[__tableau_internal_object_id__].[3-categories_gender.csv_546244DBAA8A4BFB8658EE743AFE56C3]' role='measure' type='quantitative' />
+      <column caption='Category' datatype='string' name='[category]' role='dimension' type='nominal' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;Italy&quot;' />
+      </semantic-values>
+      <date-options start-of-week='monday' />
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='3-categories_gender.csv' id='3-categories_gender.csv_546244DBAA8A4BFB8658EE743AFE56C3'>
+            <properties context=''>
+              <relation connection='cloudfile:googledrive-textscan.0se4sh316mhkvn1h7wo2y1qoqdfj' name='3-categories_gender.csv' table='[3-categories_gender#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='en_GB' separator=','>
+                  <column datatype='string' name='category' ordinal='0' />
+                  <column datatype='integer' name='M' ordinal='1' />
+                  <column datatype='integer' name='F' ordinal='2' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+    <datasource caption='3-categories_profit' inline='true' name='federated.11o6ejl0jjmp5s13qpkfh0a0t0gb' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='3-categories_profit' name='cloudfile:googledrive-textscan.0ghelct0qa0frj1223one132pq2k'>
+            <connection class='cloudfile:googledrive-textscan' cloudFileExtension='csv' cloudFileId='1psaMg-yNGbiRZJ2zHo7bBqM-YQQiBRV6' cloudFileMetadata_-_folder='1y7tQbmgYR6uCTuAkA_r6oEQrKKhfFEXa' cloudFileName='3-categories_profit.csv' cloudFileProvider='googledrive' cloudFileRequestURL='https://www.googleapis.com/drive/v3/files/1psaMg-yNGbiRZJ2zHo7bBqM-YQQiBRV6?alt=media' filename='3-categories_profit.csv' server='' server-oauth='' username='emma.gurbelea@gmail.com' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='cloudfile:googledrive-textscan.0ghelct0qa0frj1223one132pq2k' name='3-categories_profit.csv' table='[3-categories_profit#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_GB' separator=','>
+            <column datatype='string' name='category' ordinal='0' />
+            <column datatype='integer' name='quantity' ordinal='1' />
+            <column datatype='real' name='profit' ordinal='2' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='cloudfile:googledrive-textscan.0ghelct0qa0frj1223one132pq2k' name='3-categories_profit.csv' table='[3-categories_profit#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_GB' separator=','>
+            <column datatype='string' name='category' ordinal='0' />
+            <column datatype='integer' name='quantity' ordinal='1' />
+            <column datatype='real' name='profit' ordinal='2' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[3-categories_profit.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_GB&quot;</attribute>
+              <attribute datatype='string' name='currency'>&quot;£&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_GB&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>category</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[category]</local-name>
+            <parent-name>[3-categories_profit.csv]</parent-name>
+            <remote-alias>category</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[3-categories_profit.csv_4E977A87EBA74650A97E5A359D270A7D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>quantity</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[quantity]</local-name>
+            <parent-name>[3-categories_profit.csv]</parent-name>
+            <remote-alias>quantity</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[3-categories_profit.csv_4E977A87EBA74650A97E5A359D270A7D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>profit</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[profit]</local-name>
+            <parent-name>[3-categories_profit.csv]</parent-name>
+            <remote-alias>profit</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[3-categories_profit.csv_4E977A87EBA74650A97E5A359D270A7D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <_.fcp.ObjectModelTableType.true...column caption='3-categories_profit.csv' datatype='table' name='[__tableau_internal_object_id__].[3-categories_profit.csv_4E977A87EBA74650A97E5A359D270A7D]' role='measure' type='quantitative' />
+      <column caption='Category' datatype='string' name='[category]' role='dimension' type='nominal' />
+      <column caption='Profit' datatype='real' name='[profit]' role='measure' type='quantitative' />
+      <column caption='Quantity' datatype='integer' name='[quantity]' role='measure' type='quantitative' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;Italy&quot;' />
+      </semantic-values>
+      <date-options start-of-week='monday' />
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='3-categories_profit.csv' id='3-categories_profit.csv_4E977A87EBA74650A97E5A359D270A7D'>
+            <properties context=''>
+              <relation connection='cloudfile:googledrive-textscan.0ghelct0qa0frj1223one132pq2k' name='3-categories_profit.csv' table='[3-categories_profit#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='en_GB' separator=','>
+                  <column datatype='string' name='category' ordinal='0' />
+                  <column datatype='integer' name='quantity' ordinal='1' />
+                  <column datatype='real' name='profit' ordinal='2' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+    <datasource caption='3. best_brands_profit_quantity' inline='true' name='federated.1plxild0079n7t16faoj20glxz8e' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='3. best_brands_profit_quantity' name='cloudfile:googledrive-textscan.050egu405w5kkc163u8pg17ed5yv'>
+            <connection class='cloudfile:googledrive-textscan' cloudFileExtension='csv' cloudFileId='1YrF3ZiikSOY3GSfEScodxAfH2buPD_Ph' cloudFileMetadata_-_folder='1y7tQbmgYR6uCTuAkA_r6oEQrKKhfFEXa' cloudFileName='3. best_brands_profit_quantity.csv' cloudFileProvider='googledrive' cloudFileRequestURL='https://www.googleapis.com/drive/v3/files/1YrF3ZiikSOY3GSfEScodxAfH2buPD_Ph?alt=media' filename='3. best_brands_profit_quantity.csv' server='' server-oauth='' username='emma.gurbelea@gmail.com' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='cloudfile:googledrive-textscan.050egu405w5kkc163u8pg17ed5yv' name='3. best_brands_profit_quantity.csv' table='[3. best_brands_profit_quantity#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_GB' separator=','>
+            <column datatype='string' name='brand' ordinal='0' />
+            <column datatype='integer' name='quantity' ordinal='1' />
+            <column datatype='real' name='revenue' ordinal='2' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='cloudfile:googledrive-textscan.050egu405w5kkc163u8pg17ed5yv' name='3. best_brands_profit_quantity.csv' table='[3. best_brands_profit_quantity#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_GB' separator=','>
+            <column datatype='string' name='brand' ordinal='0' />
+            <column datatype='integer' name='quantity' ordinal='1' />
+            <column datatype='real' name='revenue' ordinal='2' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[3. best_brands_profit_quantity.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_GB&quot;</attribute>
+              <attribute datatype='string' name='currency'>&quot;£&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_GB&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>brand</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[brand]</local-name>
+            <parent-name>[3. best_brands_profit_quantity.csv]</parent-name>
+            <remote-alias>brand</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[3. best_brands_profit_quantity.csv_76093187C96D412591897BEF82AE4582]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>quantity</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[quantity]</local-name>
+            <parent-name>[3. best_brands_profit_quantity.csv]</parent-name>
+            <remote-alias>quantity</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[3. best_brands_profit_quantity.csv_76093187C96D412591897BEF82AE4582]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>revenue</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[revenue]</local-name>
+            <parent-name>[3. best_brands_profit_quantity.csv]</parent-name>
+            <remote-alias>revenue</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[3. best_brands_profit_quantity.csv_76093187C96D412591897BEF82AE4582]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <_.fcp.ObjectModelTableType.true...column caption='3. best_brands_profit_quantity.csv' datatype='table' name='[__tableau_internal_object_id__].[3. best_brands_profit_quantity.csv_76093187C96D412591897BEF82AE4582]' role='measure' type='quantitative' />
+      <column caption='Brand' datatype='string' name='[brand]' role='dimension' type='nominal' />
+      <column caption='Quantity' datatype='integer' name='[quantity]' role='measure' type='quantitative' />
+      <column caption='Revenue' datatype='real' name='[revenue]' role='measure' type='quantitative' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;Italy&quot;' />
+      </semantic-values>
+      <date-options start-of-week='monday' />
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='3. best_brands_profit_quantity.csv' id='3. best_brands_profit_quantity.csv_76093187C96D412591897BEF82AE4582'>
+            <properties context=''>
+              <relation connection='cloudfile:googledrive-textscan.050egu405w5kkc163u8pg17ed5yv' name='3. best_brands_profit_quantity.csv' table='[3. best_brands_profit_quantity#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='en_GB' separator=','>
+                  <column datatype='string' name='brand' ordinal='0' />
+                  <column datatype='integer' name='quantity' ordinal='1' />
+                  <column datatype='real' name='revenue' ordinal='2' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+    <datasource caption='4. disponibility_product_center' inline='true' name='federated.1gyh4i412t9d701fgv60a0qmp3s9' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='4. disponibility_product_center' name='cloudfile:googledrive-textscan.0k63w6f1cryh5210dg4kt16pbdlc'>
+            <connection class='cloudfile:googledrive-textscan' cloudFileExtension='csv' cloudFileId='1g7uLqQTeG62aOWBwDw4ZcfsxPrnS6FkM' cloudFileMetadata_-_folder='1y7tQbmgYR6uCTuAkA_r6oEQrKKhfFEXa' cloudFileName='4. disponibility_product_center.csv' cloudFileProvider='googledrive' cloudFileRequestURL='https://www.googleapis.com/drive/v3/files/1g7uLqQTeG62aOWBwDw4ZcfsxPrnS6FkM?alt=media' filename='4. disponibility_product_center.csv' server='' server-oauth='' username='emma.gurbelea@gmail.com' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='cloudfile:googledrive-textscan.0k63w6f1cryh5210dg4kt16pbdlc' name='4. disponibility_product_center.csv' table='[4. disponibility_product_center#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_GB' separator=','>
+            <column datatype='integer' name='product_id' ordinal='0' />
+            <column datatype='integer' name='product_distribution_center_id' ordinal='1' />
+            <column datatype='integer' name='disponibilita' ordinal='2' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='cloudfile:googledrive-textscan.0k63w6f1cryh5210dg4kt16pbdlc' name='4. disponibility_product_center.csv' table='[4. disponibility_product_center#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_GB' separator=','>
+            <column datatype='integer' name='product_id' ordinal='0' />
+            <column datatype='integer' name='product_distribution_center_id' ordinal='1' />
+            <column datatype='integer' name='disponibilita' ordinal='2' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[4. disponibility_product_center.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_GB&quot;</attribute>
+              <attribute datatype='string' name='currency'>&quot;£&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_GB&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>product_id</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[product_id]</local-name>
+            <parent-name>[4. disponibility_product_center.csv]</parent-name>
+            <remote-alias>product_id</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[4. disponibility_product_center.csv_D899A98E4467496F915D67FEE5B358E5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>product_distribution_center_id</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[product_distribution_center_id]</local-name>
+            <parent-name>[4. disponibility_product_center.csv]</parent-name>
+            <remote-alias>product_distribution_center_id</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[4. disponibility_product_center.csv_D899A98E4467496F915D67FEE5B358E5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>disponibilita</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[disponibilita]</local-name>
+            <parent-name>[4. disponibility_product_center.csv]</parent-name>
+            <remote-alias>disponibilita</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[4. disponibility_product_center.csv_D899A98E4467496F915D67FEE5B358E5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <_.fcp.ObjectModelTableType.true...column caption='4. disponibility_product_center.csv' datatype='table' name='[__tableau_internal_object_id__].[4. disponibility_product_center.csv_D899A98E4467496F915D67FEE5B358E5]' role='measure' type='quantitative' />
+      <column caption='Disponibilita' datatype='integer' name='[disponibilita]' role='measure' type='quantitative' />
+      <column caption='Product Distribution Center Id' datatype='integer' name='[product_distribution_center_id]' role='dimension' type='ordinal' />
+      <column caption='Product Id' datatype='integer' name='[product_id]' role='dimension' type='ordinal' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;Italy&quot;' />
+      </semantic-values>
+      <date-options start-of-week='monday' />
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='4. disponibility_product_center.csv' id='4. disponibility_product_center.csv_D899A98E4467496F915D67FEE5B358E5'>
+            <properties context=''>
+              <relation connection='cloudfile:googledrive-textscan.0k63w6f1cryh5210dg4kt16pbdlc' name='4. disponibility_product_center.csv' table='[4. disponibility_product_center#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='en_GB' separator=','>
+                  <column datatype='integer' name='product_id' ordinal='0' />
+                  <column datatype='integer' name='product_distribution_center_id' ordinal='1' />
+                  <column datatype='integer' name='disponibilita' ordinal='2' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+    <datasource caption='4.disponibilità_centri' inline='true' name='federated.0lc0oub1rl805f1dmb0d00omavfc' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='4.disponibilità_centri' name='cloudfile:googledrive-textscan.15oalcn1u9ljqq1ec517r0b5lcqf'>
+            <connection class='cloudfile:googledrive-textscan' cloudFileExtension='csv' cloudFileId='1MTFj8MHm9FSwFgE-ZRUfmgHS0eREXm-8' cloudFileMetadata_-_folder='1y7tQbmgYR6uCTuAkA_r6oEQrKKhfFEXa' cloudFileName='4.disponibilità_centri.csv' cloudFileProvider='googledrive' cloudFileRequestURL='https://www.googleapis.com/drive/v3/files/1MTFj8MHm9FSwFgE-ZRUfmgHS0eREXm-8?alt=media' filename='4.disponibilità_centri.csv' server='' server-oauth='' username='emma.gurbelea@gmail.com' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='cloudfile:googledrive-textscan.15oalcn1u9ljqq1ec517r0b5lcqf' name='4.disponibilità_centri.csv' table='[4.disponibilità_centri#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_GB' separator=','>
+            <column datatype='integer' name='product_distribution_center_id' ordinal='0' />
+            <column datatype='integer' name='non_disponibili' ordinal='1' />
+            <column datatype='integer' name='disponibili' ordinal='2' />
+            <column datatype='integer' name='totale' ordinal='3' />
+            <column datatype='real' name='percentuale_disponibili' ordinal='4' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='cloudfile:googledrive-textscan.15oalcn1u9ljqq1ec517r0b5lcqf' name='4.disponibilità_centri.csv' table='[4.disponibilità_centri#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_GB' separator=','>
+            <column datatype='integer' name='product_distribution_center_id' ordinal='0' />
+            <column datatype='integer' name='non_disponibili' ordinal='1' />
+            <column datatype='integer' name='disponibili' ordinal='2' />
+            <column datatype='integer' name='totale' ordinal='3' />
+            <column datatype='real' name='percentuale_disponibili' ordinal='4' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[4.disponibilità_centri.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_GB&quot;</attribute>
+              <attribute datatype='string' name='currency'>&quot;£&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_GB&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>product_distribution_center_id</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[product_distribution_center_id]</local-name>
+            <parent-name>[4.disponibilità_centri.csv]</parent-name>
+            <remote-alias>product_distribution_center_id</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[4.disponibilità_centri.csv_40E6B4F6FA4A4E6D92CF602473F05B18]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>non_disponibili</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[non_disponibili]</local-name>
+            <parent-name>[4.disponibilità_centri.csv]</parent-name>
+            <remote-alias>non_disponibili</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[4.disponibilità_centri.csv_40E6B4F6FA4A4E6D92CF602473F05B18]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>disponibili</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[disponibili]</local-name>
+            <parent-name>[4.disponibilità_centri.csv]</parent-name>
+            <remote-alias>disponibili</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[4.disponibilità_centri.csv_40E6B4F6FA4A4E6D92CF602473F05B18]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>totale</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[totale]</local-name>
+            <parent-name>[4.disponibilità_centri.csv]</parent-name>
+            <remote-alias>totale</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[4.disponibilità_centri.csv_40E6B4F6FA4A4E6D92CF602473F05B18]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>percentuale_disponibili</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[percentuale_disponibili]</local-name>
+            <parent-name>[4.disponibilità_centri.csv]</parent-name>
+            <remote-alias>percentuale_disponibili</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[4.disponibilità_centri.csv_40E6B4F6FA4A4E6D92CF602473F05B18]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <_.fcp.ObjectModelTableType.true...column caption='4.disponibilità_centri.csv' datatype='table' name='[__tableau_internal_object_id__].[4.disponibilità_centri.csv_40E6B4F6FA4A4E6D92CF602473F05B18]' role='measure' type='quantitative' />
+      <column caption='Disponibili' datatype='integer' name='[disponibili]' role='measure' type='quantitative' />
+      <column caption='Non Disponibili' datatype='integer' name='[non_disponibili]' role='measure' type='quantitative' />
+      <column caption='Percentuale Disponibili' datatype='real' name='[percentuale_disponibili]' role='measure' type='quantitative' />
+      <column caption='Product Distribution Center Id' datatype='integer' name='[product_distribution_center_id]' role='dimension' type='ordinal' />
+      <column caption='Totale' datatype='integer' name='[totale]' role='measure' type='quantitative' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;Italy&quot;' />
+      </semantic-values>
+      <date-options start-of-week='monday' />
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='4.disponibilità_centri.csv' id='4.disponibilità_centri.csv_40E6B4F6FA4A4E6D92CF602473F05B18'>
+            <properties context=''>
+              <relation connection='cloudfile:googledrive-textscan.15oalcn1u9ljqq1ec517r0b5lcqf' name='4.disponibilità_centri.csv' table='[4.disponibilità_centri#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='en_GB' separator=','>
+                  <column datatype='integer' name='product_distribution_center_id' ordinal='0' />
+                  <column datatype='integer' name='non_disponibili' ordinal='1' />
+                  <column datatype='integer' name='disponibili' ordinal='2' />
+                  <column datatype='integer' name='totale' ordinal='3' />
+                  <column datatype='real' name='percentuale_disponibili' ordinal='4' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+    <datasource caption='4.disponibilità_prodotti' inline='true' name='federated.1v7xnf01wmfan110az1t71mlp7in' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='4.disponibilità_prodotti' name='cloudfile:googledrive-textscan.0dw3n6e09asedl18jga4w0g129ma'>
+            <connection class='cloudfile:googledrive-textscan' cloudFileExtension='csv' cloudFileId='1oXrB3wrnVthT9_Bxf9g8x7Yv2HAoXaQN' cloudFileMetadata_-_folder='1y7tQbmgYR6uCTuAkA_r6oEQrKKhfFEXa' cloudFileName='4.disponibilità_prodotti.csv' cloudFileProvider='googledrive' cloudFileRequestURL='https://www.googleapis.com/drive/v3/files/1oXrB3wrnVthT9_Bxf9g8x7Yv2HAoXaQN?alt=media' filename='4.disponibilità_prodotti.csv' server='' server-oauth='' username='emma.gurbelea@gmail.com' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='cloudfile:googledrive-textscan.0dw3n6e09asedl18jga4w0g129ma' name='4.disponibilità_prodotti.csv' table='[4.disponibilità_prodotti#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_GB' separator=','>
+            <column datatype='integer' name='product_id' ordinal='0' />
+            <column datatype='integer' name='non_disponibili' ordinal='1' />
+            <column datatype='integer' name='disponibili' ordinal='2' />
+            <column datatype='integer' name='totale' ordinal='3' />
+            <column datatype='real' name='percentuale_disponibili' ordinal='4' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='cloudfile:googledrive-textscan.0dw3n6e09asedl18jga4w0g129ma' name='4.disponibilità_prodotti.csv' table='[4.disponibilità_prodotti#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_GB' separator=','>
+            <column datatype='integer' name='product_id' ordinal='0' />
+            <column datatype='integer' name='non_disponibili' ordinal='1' />
+            <column datatype='integer' name='disponibili' ordinal='2' />
+            <column datatype='integer' name='totale' ordinal='3' />
+            <column datatype='real' name='percentuale_disponibili' ordinal='4' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[4.disponibilità_prodotti.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_GB&quot;</attribute>
+              <attribute datatype='string' name='currency'>&quot;£&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_GB&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>product_id</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[product_id]</local-name>
+            <parent-name>[4.disponibilità_prodotti.csv]</parent-name>
+            <remote-alias>product_id</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[4.disponibilità_prodotti.csv_854C0650073D42959FE8D1460C6C7BAA]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>non_disponibili</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[non_disponibili]</local-name>
+            <parent-name>[4.disponibilità_prodotti.csv]</parent-name>
+            <remote-alias>non_disponibili</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[4.disponibilità_prodotti.csv_854C0650073D42959FE8D1460C6C7BAA]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>disponibili</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[disponibili]</local-name>
+            <parent-name>[4.disponibilità_prodotti.csv]</parent-name>
+            <remote-alias>disponibili</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[4.disponibilità_prodotti.csv_854C0650073D42959FE8D1460C6C7BAA]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>totale</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[totale]</local-name>
+            <parent-name>[4.disponibilità_prodotti.csv]</parent-name>
+            <remote-alias>totale</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[4.disponibilità_prodotti.csv_854C0650073D42959FE8D1460C6C7BAA]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>percentuale_disponibili</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[percentuale_disponibili]</local-name>
+            <parent-name>[4.disponibilità_prodotti.csv]</parent-name>
+            <remote-alias>percentuale_disponibili</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[4.disponibilità_prodotti.csv_854C0650073D42959FE8D1460C6C7BAA]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <_.fcp.ObjectModelTableType.true...column caption='4.disponibilità_prodotti.csv' datatype='table' name='[__tableau_internal_object_id__].[4.disponibilità_prodotti.csv_854C0650073D42959FE8D1460C6C7BAA]' role='measure' type='quantitative' />
+      <column caption='Disponibili' datatype='integer' name='[disponibili]' role='measure' type='quantitative' />
+      <column caption='Non Disponibili' datatype='integer' name='[non_disponibili]' role='measure' type='quantitative' />
+      <column caption='Percentuale Disponibili' datatype='real' name='[percentuale_disponibili]' role='measure' type='quantitative' />
+      <column caption='Product Id' datatype='integer' name='[product_id]' role='dimension' type='ordinal' />
+      <column caption='Totale' datatype='integer' name='[totale]' role='measure' type='quantitative' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;Italy&quot;' />
+      </semantic-values>
+      <date-options start-of-week='monday' />
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='4.disponibilità_prodotti.csv' id='4.disponibilità_prodotti.csv_854C0650073D42959FE8D1460C6C7BAA'>
+            <properties context=''>
+              <relation connection='cloudfile:googledrive-textscan.0dw3n6e09asedl18jga4w0g129ma' name='4.disponibilità_prodotti.csv' table='[4.disponibilità_prodotti#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='en_GB' separator=','>
+                  <column datatype='integer' name='product_id' ordinal='0' />
+                  <column datatype='integer' name='non_disponibili' ordinal='1' />
+                  <column datatype='integer' name='disponibili' ordinal='2' />
+                  <column datatype='integer' name='totale' ordinal='3' />
+                  <column datatype='real' name='percentuale_disponibili' ordinal='4' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+    <datasource caption='4.guadagni_mese_centro' inline='true' name='federated.0k679dh1pvc7hy199w3081g9yehf' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='4.guadagni_mese_centro' name='cloudfile:googledrive-textscan.0z6z9lb0n9kwcu11r1j3h0m1yjm6'>
+            <connection class='cloudfile:googledrive-textscan' cloudFileExtension='csv' cloudFileId='1aBQNyaUfNouIsPnYj2RiY_Um2wdwjS61' cloudFileMetadata_-_folder='1y7tQbmgYR6uCTuAkA_r6oEQrKKhfFEXa' cloudFileName='4.guadagni_mese_centro.csv' cloudFileProvider='googledrive' cloudFileRequestURL='https://www.googleapis.com/drive/v3/files/1aBQNyaUfNouIsPnYj2RiY_Um2wdwjS61?alt=media' filename='4.guadagni_mese_centro.csv' server='' server-oauth='' username='emma.gurbelea@gmail.com' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='cloudfile:googledrive-textscan.0z6z9lb0n9kwcu11r1j3h0m1yjm6' name='4.guadagni_mese_centro.csv' table='[4.guadagni_mese_centro#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_GB' separator=','>
+            <column datatype='integer' name='product_distribution_center_id' ordinal='0' />
+            <column datatype='integer' name='year' ordinal='1' />
+            <column datatype='integer' name='month' ordinal='2' />
+            <column datatype='real' name='monthly_revenue' ordinal='3' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='cloudfile:googledrive-textscan.0z6z9lb0n9kwcu11r1j3h0m1yjm6' name='4.guadagni_mese_centro.csv' table='[4.guadagni_mese_centro#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_GB' separator=','>
+            <column datatype='integer' name='product_distribution_center_id' ordinal='0' />
+            <column datatype='integer' name='year' ordinal='1' />
+            <column datatype='integer' name='month' ordinal='2' />
+            <column datatype='real' name='monthly_revenue' ordinal='3' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[4.guadagni_mese_centro.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_GB&quot;</attribute>
+              <attribute datatype='string' name='currency'>&quot;£&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_GB&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>product_distribution_center_id</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[product_distribution_center_id]</local-name>
+            <parent-name>[4.guadagni_mese_centro.csv]</parent-name>
+            <remote-alias>product_distribution_center_id</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[4.guadagni_mese_centro.csv_223A294F82E340CBB05E1B047CB29EB6]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>year</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[year]</local-name>
+            <parent-name>[4.guadagni_mese_centro.csv]</parent-name>
+            <remote-alias>year</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[4.guadagni_mese_centro.csv_223A294F82E340CBB05E1B047CB29EB6]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>month</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[month]</local-name>
+            <parent-name>[4.guadagni_mese_centro.csv]</parent-name>
+            <remote-alias>month</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[4.guadagni_mese_centro.csv_223A294F82E340CBB05E1B047CB29EB6]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>monthly_revenue</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[monthly_revenue]</local-name>
+            <parent-name>[4.guadagni_mese_centro.csv]</parent-name>
+            <remote-alias>monthly_revenue</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[4.guadagni_mese_centro.csv_223A294F82E340CBB05E1B047CB29EB6]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <_.fcp.ObjectModelTableType.true...column caption='4.guadagni_mese_centro.csv' datatype='table' name='[__tableau_internal_object_id__].[4.guadagni_mese_centro.csv_223A294F82E340CBB05E1B047CB29EB6]' role='measure' type='quantitative' />
+      <column caption='Month' datatype='integer' name='[month]' role='dimension' type='quantitative' />
+      <column caption='Monthly Revenue' datatype='real' name='[monthly_revenue]' role='measure' type='quantitative' />
+      <column caption='Product Distribution Center Id' datatype='integer' name='[product_distribution_center_id]' role='dimension' type='ordinal' />
+      <column caption='Year' datatype='integer' name='[year]' role='dimension' type='quantitative' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;Italy&quot;' />
+      </semantic-values>
+      <date-options start-of-week='monday' />
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='4.guadagni_mese_centro.csv' id='4.guadagni_mese_centro.csv_223A294F82E340CBB05E1B047CB29EB6'>
+            <properties context=''>
+              <relation connection='cloudfile:googledrive-textscan.0z6z9lb0n9kwcu11r1j3h0m1yjm6' name='4.guadagni_mese_centro.csv' table='[4.guadagni_mese_centro#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='en_GB' separator=','>
+                  <column datatype='integer' name='product_distribution_center_id' ordinal='0' />
+                  <column datatype='integer' name='year' ordinal='1' />
+                  <column datatype='integer' name='month' ordinal='2' />
+                  <column datatype='real' name='monthly_revenue' ordinal='3' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+    <datasource caption='5.andamento_profitti' inline='true' name='federated.1culozt1fyv7v41cf2pz81y3d7yh' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='5.andamento_profitti' name='cloudfile:googledrive-textscan.12s2cuu0r4ix7410zh8aq1crc4t3'>
+            <connection class='cloudfile:googledrive-textscan' cloudFileExtension='csv' cloudFileId='1MVfMN_Pma85gJOdp3jz-j4VIIXrk9wQc' cloudFileMetadata_-_folder='1y7tQbmgYR6uCTuAkA_r6oEQrKKhfFEXa' cloudFileName='5.andamento_profitti.csv' cloudFileProvider='googledrive' cloudFileRequestURL='https://www.googleapis.com/drive/v3/files/1MVfMN_Pma85gJOdp3jz-j4VIIXrk9wQc?alt=media' filename='5.andamento_profitti.csv' server='' server-oauth='' username='emma.gurbelea@gmail.com' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='cloudfile:googledrive-textscan.12s2cuu0r4ix7410zh8aq1crc4t3' name='5.andamento_profitti.csv' table='[5.andamento_profitti#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_GB' separator=','>
+            <column datatype='date' name='year_month' ordinal='0' />
+            <column datatype='real' name='profit' ordinal='1' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='cloudfile:googledrive-textscan.12s2cuu0r4ix7410zh8aq1crc4t3' name='5.andamento_profitti.csv' table='[5.andamento_profitti#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_GB' separator=','>
+            <column datatype='date' name='year_month' ordinal='0' />
+            <column datatype='real' name='profit' ordinal='1' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[5.andamento_profitti.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_GB&quot;</attribute>
+              <attribute datatype='string' name='currency'>&quot;£&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_GB&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>year_month</remote-name>
+            <remote-type>133</remote-type>
+            <local-name>[year_month]</local-name>
+            <parent-name>[5.andamento_profitti.csv]</parent-name>
+            <remote-alias>year_month</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[5.andamento_profitti.csv_332851E586D74ACD86D33F595A97ECBD]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>profit</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[profit]</local-name>
+            <parent-name>[5.andamento_profitti.csv]</parent-name>
+            <remote-alias>profit</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[5.andamento_profitti.csv_332851E586D74ACD86D33F595A97ECBD]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <_.fcp.ObjectModelTableType.true...column caption='5.andamento_profitti.csv' datatype='table' name='[__tableau_internal_object_id__].[5.andamento_profitti.csv_332851E586D74ACD86D33F595A97ECBD]' role='measure' type='quantitative' />
+      <column caption='Profit' datatype='real' name='[profit]' role='measure' type='quantitative' />
+      <column caption='Year Month' datatype='date' name='[year_month]' role='dimension' type='ordinal' />
+      <column-instance column='[year_month]' derivation='Month' name='[mn:year_month:ok]' pivot='key' type='ordinal' />
+      <column-instance column='[year_month]' derivation='Day-Trunc' name='[tdy:year_month:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[year_month]' derivation='Year' name='[yr:year_month:ok]' pivot='key' type='ordinal' />
+      <group hidden='true' name='[Exclusions (DAY(Year Month),MONTH(Year Month),YEAR(Year Month))]' name-style='unqualified' user:auto-column='exclude'>
+        <groupfilter function='crossjoin'>
+          <groupfilter function='level-members' level='[tdy:year_month:qk]' />
+          <groupfilter function='level-members' level='[mn:year_month:ok]' />
+          <groupfilter function='level-members' level='[yr:year_month:ok]' />
+        </groupfilter>
+      </group>
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;Italy&quot;' />
+      </semantic-values>
+      <date-options start-of-week='monday' />
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='5.andamento_profitti.csv' id='5.andamento_profitti.csv_332851E586D74ACD86D33F595A97ECBD'>
+            <properties context=''>
+              <relation connection='cloudfile:googledrive-textscan.12s2cuu0r4ix7410zh8aq1crc4t3' name='5.andamento_profitti.csv' table='[5.andamento_profitti#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='en_GB' separator=','>
+                  <column datatype='date' name='year_month' ordinal='0' />
+                  <column datatype='real' name='profit' ordinal='1' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Profit by Year and Month for all the Centers'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Profit by Year and Month for all the Centers</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='5.andamento_profitti' name='federated.1culozt1fyv7v41cf2pz81y3d7yh' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1culozt1fyv7v41cf2pz81y3d7yh'>
+            <column-instance column='[year_month]' derivation='Month' name='[mn:year_month:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[year_month]' derivation='None' name='[none:year_month:qk]' pivot='key' type='quantitative' />
+            <column caption='Profit' datatype='real' name='[profit]' role='measure' type='quantitative' />
+            <column-instance column='[profit]' derivation='Sum' name='[sum:profit:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[year_month]' derivation='Day-Trunc' name='[tdy:year_month:qk]' pivot='key' type='quantitative' />
+            <column caption='Year Month' datatype='date' name='[year_month]' role='dimension' type='ordinal' />
+            <column-instance column='[year_month]' derivation='Year' name='[yr:year_month:ok]' pivot='key' type='ordinal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.1culozt1fyv7v41cf2pz81y3d7yh].[Exclusions (DAY(Year Month),MONTH(Year Month),YEAR(Year Month))]'>
+            <groupfilter function='except' user:ui-domain='database' user:ui-enumeration='exclusive' user:ui-marker='enumerate'>
+              <groupfilter function='crossjoin'>
+                <groupfilter function='level-members' level='[tdy:year_month:qk]' />
+                <groupfilter function='level-members' level='[mn:year_month:ok]' />
+                <groupfilter function='level-members' level='[yr:year_month:ok]' />
+              </groupfilter>
+              <groupfilter function='reorder-dimensionality'>
+                <groupfilter function='crossjoin'>
+                  <groupfilter function='member' level='[mn:year_month:ok]' member='7' />
+                  <groupfilter function='crossjoin'>
+                    <groupfilter function='member' level='[yr:year_month:ok]' member='2023' />
+                    <groupfilter function='union'>
+                      <groupfilter function='member' level='[tdy:year_month:qk]' member='#2023-07-01 00:00:00#' />
+                      <groupfilter function='member' level='[tdy:year_month:qk]' member='#2023-07-02 00:00:00#' />
+                      <groupfilter function='member' level='[tdy:year_month:qk]' member='#2023-07-03 00:00:00#' />
+                      <groupfilter function='member' level='[tdy:year_month:qk]' member='#2023-07-04 00:00:00#' />
+                      <groupfilter function='member' level='[tdy:year_month:qk]' member='#2023-07-05 00:00:00#' />
+                      <groupfilter function='member' level='[tdy:year_month:qk]' member='#2023-07-06 00:00:00#' />
+                      <groupfilter function='member' level='[tdy:year_month:qk]' member='#2023-07-07 00:00:00#' />
+                      <groupfilter function='member' level='[tdy:year_month:qk]' member='#2023-07-08 00:00:00#' />
+                      <groupfilter function='member' level='[tdy:year_month:qk]' member='#2023-07-09 00:00:00#' />
+                      <groupfilter function='member' level='[tdy:year_month:qk]' member='#2023-07-10 00:00:00#' />
+                      <groupfilter function='member' level='[tdy:year_month:qk]' member='#2023-07-11 00:00:00#' />
+                      <groupfilter function='member' level='[tdy:year_month:qk]' member='#2023-07-12 00:00:00#' />
+                      <groupfilter function='member' level='[tdy:year_month:qk]' member='#2023-07-13 00:00:00#' />
+                      <groupfilter function='member' level='[tdy:year_month:qk]' member='#2023-07-14 00:00:00#' />
+                    </groupfilter>
+                  </groupfilter>
+                </groupfilter>
+                <order>
+                  <hierarchy name='[tdy:year_month:qk]' />
+                  <hierarchy name='[mn:year_month:ok]' />
+                  <hierarchy name='[yr:year_month:ok]' />
+                </order>
+              </groupfilter>
+            </groupfilter>
+          </filter>
+          <filter class='categorical' column='[federated.1culozt1fyv7v41cf2pz81y3d7yh].[mn:year_month:ok]'>
+            <groupfilter function='level-members' level='[mn:year_month:ok]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='quantitative' column='[federated.1culozt1fyv7v41cf2pz81y3d7yh].[none:year_month:qk]' included-values='in-range'>
+            <min>#2019-01-01#</min>
+          </filter>
+          <filter class='categorical' column='[federated.1culozt1fyv7v41cf2pz81y3d7yh].[yr:year_month:ok]'>
+            <groupfilter function='level-members' level='[yr:year_month:ok]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.1culozt1fyv7v41cf2pz81y3d7yh].[yr:year_month:ok]</column>
+            <column>[federated.1culozt1fyv7v41cf2pz81y3d7yh].[mn:year_month:ok]</column>
+            <column>[federated.1culozt1fyv7v41cf2pz81y3d7yh].[none:year_month:qk]</column>
+            <column>[federated.1culozt1fyv7v41cf2pz81y3d7yh].[Exclusions (DAY(Year Month),MONTH(Year Month),YEAR(Year Month))]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+        </panes>
+        <rows>[federated.1culozt1fyv7v41cf2pz81y3d7yh].[sum:profit:qk]</rows>
+        <cols>([federated.1culozt1fyv7v41cf2pz81y3d7yh].[yr:year_month:ok] / [federated.1culozt1fyv7v41cf2pz81y3d7yh].[mn:year_month:ok])</cols>
+      </table>
+      <simple-id uuid='{DE52DA82-3890-4FDF-8CDE-2C703E962428}' />
+    </worksheet>
+    <worksheet name='Sheet 2'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='4.guadagni_mese_centro' name='federated.0k679dh1pvc7hy199w3081g9yehf' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0k679dh1pvc7hy199w3081g9yehf'>
+            <column caption='Monthly Revenue' datatype='real' name='[monthly_revenue]' role='measure' type='quantitative' />
+            <column-instance column='[product_distribution_center_id]' derivation='None' name='[none:product_distribution_center_id:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[year]' derivation='None' name='[none:year:qk]' pivot='key' type='quantitative' />
+            <column caption='Product Distribution Center Id' datatype='integer' name='[product_distribution_center_id]' role='dimension' type='ordinal' />
+            <column-instance column='[monthly_revenue]' derivation='Sum' name='[sum:monthly_revenue:qk]' pivot='key' type='quantitative' />
+            <column caption='Year' datatype='integer' name='[year]' role='dimension' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='quantitative' column='[federated.0k679dh1pvc7hy199w3081g9yehf].[none:year:qk]' included-values='in-range'>
+            <min>2022</min>
+            <max>2023</max>
+          </filter>
+          <slices>
+            <column>[federated.0k679dh1pvc7hy199w3081g9yehf].[none:year:qk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.0k679dh1pvc7hy199w3081g9yehf].[none:product_distribution_center_id:ok]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.0k679dh1pvc7hy199w3081g9yehf].[none:product_distribution_center_id:ok]</rows>
+        <cols>[federated.0k679dh1pvc7hy199w3081g9yehf].[sum:monthly_revenue:qk]</cols>
+      </table>
+      <simple-id uuid='{4220B1E5-DEB1-4D13-AF33-A7C9D8EFA766}' />
+    </worksheet>
+  </worksheets>
+  <windows source-height='408'>
+    <window class='worksheet' name='Profit by Year and Month for all the Centers'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+            <card param='[federated.1culozt1fyv7v41cf2pz81y3d7yh].[yr:year_month:ok]' type='filter' />
+            <card param='[federated.1culozt1fyv7v41cf2pz81y3d7yh].[mn:year_month:ok]' type='filter' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+        <highlight>
+          <color-one-way>
+            <field>[federated.1culozt1fyv7v41cf2pz81y3d7yh].[mn:year_month:ok]</field>
+            <field>[federated.1culozt1fyv7v41cf2pz81y3d7yh].[none:year_month:qk]</field>
+            <field>[federated.1culozt1fyv7v41cf2pz81y3d7yh].[qr:year_month:ok]</field>
+            <field>[federated.1culozt1fyv7v41cf2pz81y3d7yh].[yr:year_month:ok]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{72B3AD38-0CB2-4FA8-96ED-52995E02F16C}' />
+    </window>
+    <window class='worksheet' maximized='true' name='Sheet 2'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+            <card param='[federated.0k679dh1pvc7hy199w3081g9yehf].[none:year:qk]' show-domain='false' show-null-ctrls='false' type='filter' />
+            <card pane-specification-id='0' param='[federated.0k679dh1pvc7hy199w3081g9yehf].[none:product_distribution_center_id:ok]' type='color' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.0k679dh1pvc7hy199w3081g9yehf].[none:product_distribution_center_id:ok]</field>
+            <field>[federated.0k679dh1pvc7hy199w3081g9yehf].[none:year:qk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{B3BAB970-C9A1-4A29-8369-93543F59D56A}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='Profit by Year and Month for all the Centers' width='192'>
+      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
+      NoWQWI/+RxEAAAAASUVORK5CYII=
+    </thumbnail>
+    <thumbnail height='192' name='Sheet 2' width='192'>
+      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
+      7AAAAABJRU5ErkJggg==
+    </thumbnail>
+  </thumbnails>
+</workbook>
