@@ -1,0 +1,257 @@
+distribution_center_id,category,count
+1,Swim,282
+2,Swim,160
+3,Swim,115
+4,Swim,377
+5,Swim,174
+6,Swim,142
+7,Swim,70
+8,Swim,235
+9,Swim,183
+10,Swim,60
+1,Jeans,187
+2,Jeans,149
+3,Jeans,149
+4,Jeans,273
+5,Jeans,182
+6,Jeans,146
+7,Jeans,314
+8,Jeans,346
+9,Jeans,42
+10,Jeans,211
+1,Pants,106
+2,Pants,93
+3,Pants,88
+4,Pants,105
+5,Pants,77
+6,Pants,160
+7,Pants,148
+8,Pants,92
+9,Pants,105
+10,Pants,67
+1,Socks,120
+2,Socks,155
+3,Socks,143
+4,Socks,67
+5,Socks,62
+6,Socks,114
+7,Socks,121
+8,Socks,66
+9,Socks,24
+10,Socks,33
+1,Active,248
+2,Active,288
+3,Active,164
+4,Active,145
+5,Active,29
+6,Active,177
+7,Active,124
+8,Active,55
+9,Active,112
+10,Active,90
+1,Shorts,254
+2,Shorts,159
+3,Shorts,137
+4,Shorts,179
+5,Shorts,122
+6,Shorts,166
+7,Shorts,193
+8,Shorts,208
+9,Shorts,247
+10,Shorts,100
+1,Sweaters,247
+2,Sweaters,227
+3,Sweaters,201
+4,Sweaters,121
+5,Sweaters,164
+6,Sweaters,179
+7,Sweaters,172
+8,Sweaters,205
+9,Sweaters,137
+10,Sweaters,84
+1,Underwear,136
+2,Underwear,123
+3,Underwear,271
+4,Underwear,37
+5,Underwear,52
+6,Underwear,36
+7,Underwear,58
+8,Underwear,49
+9,Underwear,71
+10,Underwear,255
+1,Accessories,254
+2,Accessories,277
+3,Accessories,199
+4,Accessories,139
+5,Accessories,101
+6,Accessories,111
+7,Accessories,125
+8,Accessories,180
+9,Accessories,65
+10,Accessories,108
+1,Tops & Tees,294
+2,Tops & Tees,185
+3,Tops & Tees,233
+4,Tops & Tees,187
+5,Tops & Tees,115
+6,Tops & Tees,213
+7,Tops & Tees,182
+8,Tops & Tees,171
+9,Tops & Tees,185
+10,Tops & Tees,103
+1,Sleep & Lounge,254
+2,Sleep & Lounge,371
+3,Sleep & Lounge,148
+4,Sleep & Lounge,161
+5,Sleep & Lounge,131
+6,Sleep & Lounge,179
+7,Sleep & Lounge,196
+8,Sleep & Lounge,181
+9,Sleep & Lounge,54
+10,Sleep & Lounge,96
+1,Outerwear & Coats,190
+2,Outerwear & Coats,107
+3,Outerwear & Coats,298
+4,Outerwear & Coats,130
+5,Outerwear & Coats,95
+6,Outerwear & Coats,192
+7,Outerwear & Coats,176
+8,Outerwear & Coats,133
+9,Outerwear & Coats,73
+10,Outerwear & Coats,26
+1,Suits & Sport Coats,95
+2,Suits & Sport Coats,57
+3,Suits & Sport Coats,77
+4,Suits & Sport Coats,79
+5,Suits & Sport Coats,71
+6,Suits & Sport Coats,94
+7,Suits & Sport Coats,49
+8,Suits & Sport Coats,92
+9,Suits & Sport Coats,65
+10,Suits & Sport Coats,60
+1,Fashion Hoodies & Sweatshirts,239
+2,Fashion Hoodies & Sweatshirts,229
+3,Fashion Hoodies & Sweatshirts,95
+4,Fashion Hoodies & Sweatshirts,201
+5,Fashion Hoodies & Sweatshirts,114
+6,Fashion Hoodies & Sweatshirts,198
+7,Fashion Hoodies & Sweatshirts,201
+8,Fashion Hoodies & Sweatshirts,217
+9,Fashion Hoodies & Sweatshirts,269
+10,Fashion Hoodies & Sweatshirts,103
+1,Plus,70
+2,Plus,176
+3,Plus,84
+4,Plus,54
+5,Plus,107
+6,Plus,63
+7,Plus,51
+8,Plus,75
+9,Plus,38
+10,Plus,40
+1,Suits,49
+2,Suits,12
+3,Suits,37
+4,Suits,13
+6,Suits,2
+7,Suits,28
+9,Suits,35
+10,Suits,12
+1,Skirts,56
+2,Skirts,38
+3,Skirts,46
+4,Skirts,24
+5,Skirts,42
+6,Skirts,12
+7,Skirts,41
+8,Skirts,40
+9,Skirts,42
+10,Skirts,26
+1,Dresses,161
+2,Dresses,81
+3,Dresses,188
+4,Dresses,47
+5,Dresses,84
+6,Dresses,22
+7,Dresses,61
+8,Dresses,80
+9,Dresses,173
+10,Dresses,58
+1,Leggings,106
+2,Leggings,109
+3,Leggings,24
+4,Leggings,57
+5,Leggings,43
+6,Leggings,31
+7,Leggings,64
+8,Leggings,21
+9,Leggings,61
+10,Leggings,48
+1,Intimates,266
+2,Intimates,502
+3,Intimates,379
+4,Intimates,160
+5,Intimates,116
+6,Intimates,174
+7,Intimates,65
+8,Intimates,230
+9,Intimates,266
+10,Intimates,205
+1,Maternity,77
+2,Maternity,92
+3,Maternity,289
+4,Maternity,49
+5,Maternity,70
+6,Maternity,48
+7,Maternity,98
+8,Maternity,81
+9,Maternity,81
+10,Maternity,13
+1,Clothing Sets,5
+2,Clothing Sets,3
+3,Clothing Sets,5
+4,Clothing Sets,2
+5,Clothing Sets,2
+6,Clothing Sets,2
+8,Clothing Sets,11
+9,Clothing Sets,7
+1,Pants & Capris,65
+2,Pants & Capris,91
+3,Pants & Capris,104
+4,Pants & Capris,38
+5,Pants & Capris,65
+6,Pants & Capris,32
+7,Pants & Capris,42
+8,Pants & Capris,48
+9,Pants & Capris,89
+10,Pants & Capris,39
+1,Socks & Hosiery,73
+2,Socks & Hosiery,169
+3,Socks & Hosiery,78
+4,Socks & Hosiery,82
+5,Socks & Hosiery,58
+6,Socks & Hosiery,57
+7,Socks & Hosiery,51
+8,Socks & Hosiery,57
+9,Socks & Hosiery,18
+10,Socks & Hosiery,23
+1,Blazers & Jackets,50
+2,Blazers & Jackets,68
+3,Blazers & Jackets,106
+4,Blazers & Jackets,16
+5,Blazers & Jackets,23
+6,Blazers & Jackets,18
+7,Blazers & Jackets,29
+8,Blazers & Jackets,32
+9,Blazers & Jackets,202
+10,Blazers & Jackets,17
+1,Jumpsuits & Rompers,7
+2,Jumpsuits & Rompers,8
+3,Jumpsuits & Rompers,9
+4,Jumpsuits & Rompers,18
+5,Jumpsuits & Rompers,13
+6,Jumpsuits & Rompers,4
+7,Jumpsuits & Rompers,10
+8,Jumpsuits & Rompers,14
+9,Jumpsuits & Rompers,75
+10,Jumpsuits & Rompers,4
