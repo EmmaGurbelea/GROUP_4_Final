@@ -1,7 +1,5 @@
-from flask import Flask, jsonify
 import requests
-
-app = Flask(__name__)
+import json
 
 COUNTRY_CODES = {
     'Japan': 'jp',
@@ -20,7 +18,6 @@ COUNTRY_CODES = {
     'Austria': 'at'
 }
 
-@app.route('/api/top-songs', methods=['GET'])
 def get_top_songs():
     result = {}
 
@@ -48,7 +45,8 @@ def get_top_songs():
         except requests.exceptions.RequestException as e:
             result[country] = {'error': str(e)}
 
-    return jsonify(result)
+    return json.dumps(result)
 
 if __name__ == '__main__':
-    app.run()
+    top_songs = get_top_songs()
+    print(top_songs)
